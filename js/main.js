@@ -1,0 +1,1 @@
+function dropdown(){document.addEventListener("click",function(e){e.preventDefault(),e.target.closest(".toggle__menu")&&document.getElementsByClassName("toggle")[0].classList.toggle("navbar__active")})}$(document).ready(function(){$(".social-carousel").slick()}),dropdown();
